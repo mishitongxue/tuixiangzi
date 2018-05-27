@@ -40,7 +40,7 @@ body{
     background-color: #eee;
     margin-top: 50px;
     position: relative;
-    left: 80%;
+    left: 60%;
     right: 50%;
     transform: translate(-50%,0)
 }
