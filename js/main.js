@@ -1,5 +1,5 @@
 var col = 12; //每行12箱子
-var level = 3; //初始关卡为第一关
+var level = 0; //初始关卡为第一关
 var goalList = [4, 3, 4, 4, 3, 5, 5, 6, 5, 4]; //每关箱子数量
 var origin = [54, 15, 39, 29, 17, 21, 45, 94, 39, 56]; //每关初始皮卡丘的位置
 var goal = goalList[level]; //本关箱子数量
