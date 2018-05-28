@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dedfd9;
+    text-align: center;
+}
+.level{
+    color: #000;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.box{
+    width: 300px;
+    height: 225px;
+    padding: 25px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 10px;
+    transform: translate(-50%,0);
+    background-color: #bfbcb7;
+    border-radius: 20px;
+}
+.box div{
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+.type1{
+    background: url(../img/type1.png);
+    background-size: cover;
+}
+.type1, .type2{
+    background-color: #bfbcb7;
+}
+.type3{
+    background: url(../img/type3.png);
+    background-size: cover;
+}
+.type4{
+    background: url(../img/type4.png);
+    background-size: cover;
+}
+.type14{
+    background: url(../img/type14.png);
+    background-size: cover;
+
+}
+.player{
+    background: url(../img/player.png);
+    background-size: cover;
+}
+.operation{
+    width: 350px;
+    height: 250px;
+    background-color: #eee;
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,0)
+}
+.time{
+    padding-top: 10px;
+}
+.choose{
+    padding-top: 10px;
+}
+#replay{
+    margin-left: 30px;
+}
+.move{
+    width: 300px;
+    height: 150px;
+    background-color: #eee;
+    margin-top: 25px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,0)
+}
+.move div{
+    width: 50px;
+    height: 50px;
+}
+.top{
+    background: url(../img/move.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0)
+    rotate(-90deg);
+}
+.bottom{
+    background: url(../img/move.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    transform: translate(-50%, 0)
+    rotate(90deg);
+}
+.left{
+    background: url(../img/move.png);
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: 70px;
+    transform: translate(-200%, 0)
+    rotate(-180deg);
+}
+.right{
+    background: url(../img/move.png);
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 70px;
+    transform: translate(100%, 0)
+    rotate(0deg);
+}
+
