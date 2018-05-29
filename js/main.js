@@ -217,7 +217,7 @@ function move(step) {
         //推箱子移动
     } else if (player2.hasClass('type4') && pushbox.hasClass('type2')) {
         //玩家目的地有箱子  且  箱子目的地是路  
-        player2.removeClass("type4");
+        player2.removeClass("type4").removeClass('type14');
         player1.removeClass("player");
         pushbox.addClass("type4").removeClass('type2');
         player2.addClass("player").addClass("type2");
