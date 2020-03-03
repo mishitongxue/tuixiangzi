@@ -265,9 +265,13 @@ function win() {
             position = origin[level];
             goal = goalList[level];
             create();
-        }else{
+        } else if(level == 9){
             clearInterval();
             alert('你还真他娘的是个人才!---用时:' + time + 'S');
+            time = 0;
+        } else {
+            clearInterval();
+            alert('文文最棒！！！');
             time = 0;
         }        
     }   
